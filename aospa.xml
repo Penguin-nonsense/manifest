@@ -12,7 +12,7 @@
 
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="fork" revision="uvite" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
@@ -171,8 +171,8 @@
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" remote="aospa" />
   <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-gitlab" />
   <project path="vendor/aospa/translations" name="AOSPA/android_vendor_aospa_translations" remote="aospa" />
-  <project path="vendor/google/gms" name="android_vendor_google_gms" remote="blobs-gitlab" clone-depth="1" />
-  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" clone-depth="1" />
+  <project path="vendor/google/gms" name="xenxynon/android_vendor_google_gms" remote="gitlab" revision="uvite" />
+  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="fork" revision="uvite" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
 
