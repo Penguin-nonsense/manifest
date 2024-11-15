@@ -52,6 +52,12 @@
           fetch="https://github.com/Project-PenguinOS"
           revision="unity"/>
 
+  <!-- forks -->
+  <remote name="fork"
+          fetch="https://github.com/Penguin-nonsense"
+          revision="unity"/>
+
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="penguin.xml"/>

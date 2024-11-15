@@ -8,7 +8,7 @@
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
   <remove-project name="platform/libcore" />
-  <project path="libcore" name="AOSPA/android_libcore" remote="aospa" />
+  <project path="libcore" name="android_libcore" remote="fork" revision="uvite" />
 
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
@@ -107,7 +107,7 @@
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="AOSPA/android_packages_modules_StatsD" remote="aospa" />
   <remove-project name="platform/packages/modules/Wifi" />
-  <project path="packages/modules/Wifi" name="AOSPA/android_packages_modules_Wifi" remote="aospa" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="fork" revision="uvite" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />

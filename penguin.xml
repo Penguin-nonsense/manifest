@@ -7,7 +7,7 @@
 
   <!-- Build -->
   <remove-project name="platform/build_repo" />
-  <project path="build/make" name="android_build" remote="penguin" >
+  <project path="build/make" name="android_build" remote="fork" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="penguin" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="fork" />
 
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="android_frameworks_av" remote="penguin" />
@@ -38,29 +38,25 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="penguin" />
   
   <remove-project name="platform/frameworks/libs/systemui" />
-  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="penguin" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="fork" />
 
   <!-- Manifest -->
-  <project path="manifest" name="manifest" remote="penguin" />
-
-  <!-- OTA -->
-  <project path="OTA" name="OTA" remote="penguin" />
+  <project path="manifest" name="manifest" remote="fork" />
 
   <!-- Packages -->
   <project path="packages/apps/Paranoid/SystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="penguin" />
 
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="penguin" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="fork" />
 
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="penguin" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fork" />
 
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="penguin" />
 
   <!-- Vendor -->
-  <project path="vendor/aospa" name="android_vendor_aospa" remote="penguin" >
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="fork" >
     <linkfile src="build.sh" dest="rom-build.sh" />
-    <linkfile src="json.sh" dest="generate-json.sh" />
   </project>
 
 </manifest>
