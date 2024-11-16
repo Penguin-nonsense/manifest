@@ -22,7 +22,7 @@
   <remove-project name="device/qcom/qssi" />
   <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="aospa" />
   <remove-project name="device/qcom/sepolicy_vndr" />
-  <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="aospa" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="fork" revision="uvite" />
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="aospa" />
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
@@ -55,7 +55,7 @@
   <remove-project name="platform/external/tinycompress" />
   <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <project path="external/wpa_supplicant_8" name="AOSPA/android_external_wpa_supplicant_8" remote="aospa" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="fork" revision="uvite" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/proto_logging" />
@@ -105,7 +105,7 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="AOSPA/android_packages_modules_Connectivity" remote="aospa" />
   <remove-project name="platform/packages/modules/StatsD" />
-  <project path="packages/modules/StatsD" name="AOSPA/android_packages_modules_StatsD" remote="aospa" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="fork" revision="uvite"/>
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="fork" revision="uvite" />
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -115,7 +115,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
-  <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="fork" revision="uvite" />
   <remove-project name="platform/packages/modules/RemoteKeyProvisioning" />
   <project path="packages/modules/RemoteKeyProvisioning" name="AOSPA/android_packages_modules_RemoteKeyProvisioning" remote="aospa" />
 
@@ -189,9 +189,9 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
   </project>
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="AOSPA/android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="aospa" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="fork" revision="uvite"  />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" remote="aospa" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="fork" revision="uvite" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
   <project path="vendor/qcom/opensource/commonsys/display" name="AOSPA/android_vendor_qcom-opensource_display-commonsys" remote="aospa" />
 

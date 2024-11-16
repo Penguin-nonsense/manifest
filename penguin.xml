@@ -18,7 +18,7 @@
 
   <!-- Build (soong) -->
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="android_build_soong" remote="penguin" >
+  <project path="build/soong" name="android_build_soong" remote="fork" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -32,7 +32,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="fork" />
 
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="penguin" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="fork" />
 
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="penguin" />
