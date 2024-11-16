@@ -9,7 +9,7 @@ repo init -u https://github.com/Penguin-nonsense/manifest -b unity
 ### Sync source ###
 
 ```bash
-repo sync --force-sync --no-clone-bundle --current-branch --no-tags -j$(nproc --all)
+repo sync --force-sync --no-clone-bundle --current-branch --no-tags --optimized-fetch --prune -j$(nproc --all)
 ```
 
 ## Building ##
