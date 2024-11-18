@@ -63,7 +63,7 @@
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="fork" />
   <remove-project name="platform/frameworks/libs/modules-utils" />
   <project path="frameworks/libs/modules-utils" name="AOSPA/android_frameworks_libs_modules-utils" remote="aospa" />
 
