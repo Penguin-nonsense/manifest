@@ -21,18 +21,30 @@ The bundled builder tool `./rom-build.sh` handles all the building steps for the
 ```
 You may include additional flags as per your requirements
 
-• ```-t``` to set type 
+• `-t` to set type 
 
-```user/userdebug/eng```
+`user/userdebug/eng`
 
-• ```-s``` to specific path to your keys if you wanna use classic method of signing builds
+• `-s` to specific path to your keys if you wanna use classic method of signing builds
 
-• ```-c``` for clean build and so on...
+• `-c` for clean build and so on...
 
-you can check all available flags [here](https://github.com/AOSPA/android_vendor_aospa/blob/vauxite/build.sh)
+• `-i` for installclean
+
+• `-z` for fastboot update zip
+
+• `-d` to generate incremental OTA zip
+
+• `-m` to build specific modules like partitions/apks/executables/java
+
+• `-b` absolute dogshit, it saves the unsigned zip god knows why you'd use that
+
+•  `-r` run a resync before starting lunch 
+
+• you can check all available flags [here](https://github.com/AOSPA/android_vendor_aospa/blob/vauxite/build.sh)
 
  I use
  
 ```bash
-./rom-build.sh phone1 -t user -s certs
+./rom-build.sh phone1 -t user -s certs -z -i
 ```
