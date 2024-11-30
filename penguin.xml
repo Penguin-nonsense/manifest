@@ -59,4 +59,5 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
 
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-22.0" />
 </manifest>
