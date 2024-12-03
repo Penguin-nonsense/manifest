@@ -49,7 +49,7 @@
   <remove-project name="platform/external/okhttp" />
   <project path="external/okhttp" name="AOSPA/android_external_okhttp" remote="aospa" />
   <remove-project name="platform/external/skia" />
-  <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" />
+  <project path="external/skia" name="android_external_skia" remote="fork" />
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" />
   <remove-project name="platform/external/tinycompress" />
@@ -109,7 +109,7 @@
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="fork" revision="uvite" />
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="fork" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA/android_packages_providers_TelephonyProvider" remote="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
@@ -182,7 +182,7 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
-  <project path="vendor/qcom/opensource/core-utils" name="AOSPA/android_vendor_qcom-opensource_core-utils" remote="aospa" />
+  <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="fork" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="fork" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
