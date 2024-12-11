@@ -59,7 +59,6 @@
 
 
   <include name="aosp.xml"/>
-  <include name="aospa.xml"/>
   <include name="penguin.xml"/>
   <include name="obsolete.xml"/>
 
