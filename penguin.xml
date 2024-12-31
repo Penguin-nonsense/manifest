@@ -23,7 +23,7 @@
 
   <!-- Bionic -->
   <remove-project name="platform/bionic"/>
-  <project path="bionic" name="android_bionic" remote="penguin"/>
+  <project path="bionic" name="android_bionic" remote="fork"/>
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base"/>
