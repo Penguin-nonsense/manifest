@@ -191,7 +191,7 @@
   <remove-project name="platform/system/bpf"/>
   <project path="system/bpf" name="AOSPA/android_system_bpf" remote="aospa"/>
   <remove-project name="platform/system/core"/>
-  <project path="system/core" name="AOSPA/android_system_core" remote="aospa"/>
+  <project path="system/core" name="android_system_core" remote="fork"/>
   <remove-project name="platform/system/chre"/>
   <project path="system/chre" name="AOSPA/android_system_chre" remote="aospa"/>
   <remove-project name="platform/system/libfmq"/>
