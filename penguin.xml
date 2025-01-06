@@ -42,7 +42,7 @@
   <project path="manifest" name="manifest" remote="fork"/>
 
   <!-- Packages -->
-  <project path="packages/apps/Paranoid/SystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="penguin"/>
+  <project path="packages/apps/Paranoid/SystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="fork"/>
 
   <remove-project name="platform/packages/apps/DocumentsUI"/>
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="fork"/>
