@@ -242,7 +242,7 @@
   <project path="vendor/aospa/translations" name="AOSPA/android_vendor_aospa_translations" remote="aospa"/>
   <project path="vendor/google/gms" name="xenxynon/android_vendor_google_gms" remote="gitlab" revision="uvite" clone-depth="1"/>
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="fork" revision="uvite" clone="1"/>
-  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" clone="1"/>
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="fork" revision="uvite" clone="1"/>
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" clone="1"/>
 
   <!-- Vendor (QCOM QSSI) -->
